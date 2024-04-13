@@ -1,34 +1,39 @@
 import Social from './Social'
+import Navbar from './Navbar'
+import Image from 'next/image'
+import profile from '../assets/profile.jpg'
+import Skills from './Skills';
 
 const styles = {
-  nameStyle: {
-    fontSize: '5em',
-  },
-  inlineChild: {
-    display: 'inline-block',
-  },
   mainContainer: {
-    height: '100%',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
+    flexGrow: '3'
+  },
+  nameStyle: {
+    fontSize: '6em',
+    margin: '60px 0px 0px 0px',
+    fontWeight: '500'
   },
 };
-
-
 
 export default function Home() {
   return (
     <div className="MainApp">
       <main className="main">
-        <div style={styles.mainContainer}>
-          <h1 style={styles.nameStyle}>Ashutosh Chauhan</h1>
-          <div style={{ flexDirection: 'row' }}>
-            <h2 style={styles.inlineChild}>I like to develop applications that scale</h2>
+        <Navbar />
+        <section className='profile'>
+          <div style={styles.mainContainer}>
+            {/* <Image src={profile} alt='profile image' /> */}
+            <h1 style={styles.nameStyle}>Ashutosh Chauhan</h1>
+            <div className='bio'>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <Social />
           </div>
-          <Social />
-        </div>
+          <div className='picture'>
+            <Image src={profile} alt="profile" />
+          </div>
+        </section>
+        <Skills />
       </main>
     </div>
   );

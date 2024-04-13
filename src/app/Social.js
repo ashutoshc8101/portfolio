@@ -6,6 +6,10 @@ const styles = {
     marginRight: 10,
     marginBottom: 10,
   },
+  firstIcon: {
+    marginRight: 10,
+    marginBottom: 10,
+  }
 };
 
 function Social() {
@@ -25,7 +29,7 @@ function Social() {
     <div className="social">
       <SocialIcon
         key={"github"}
-        style={styles.iconStyle}
+        style={styles.firstIcon}
         url={"https://github.com/ashutoshc8101"}
         network={"github"}
         // bgColor={theme.socialIconBgColor}
@@ -46,6 +50,14 @@ function Social() {
         url={"https://twitter.com/ashutoshc8101"}
         network={"twitter"}
         target="_blank"
+        rel="noopener"
+      />
+      <SocialIcon
+        key={"instagram"}
+        style={styles.iconStyle}
+        url={"https://www.instagram.com/ashutoshchauhan91"}
+        network='instagram'
+        target='_blank'
         rel="noopener"
       />
       <SocialIcon
