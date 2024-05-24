@@ -2,28 +2,21 @@ import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 const styles = {
   iconStyle: {
+    width: '40px',
+    height: '40px',
     marginLeft: 10,
     marginRight: 10,
     marginBottom: 10,
   },
   firstIcon: {
+    width: '40px',
+    height: '40px',
     marginRight: 10,
     marginBottom: 10,
   }
 };
 
 function Social() {
-  // const theme = useContext(ThemeContext);
-  // const [data, setData] = useState(null);
-
-  // useEffect(() => {
-  //   fetch(endpoints.social, {
-  //     method: 'GET',
-  //   })
-  //     .then((res) => res.json())
-  //     .then((res) => setData(res))
-  //     .catch((err) => err);
-  // }, []);
 
   return (
     <div className="social">

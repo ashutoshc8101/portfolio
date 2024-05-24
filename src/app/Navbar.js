@@ -1,25 +1,32 @@
+
 const styles = {
-  navbar: {
-    display: 'flex',
-    width: '100%',
-    justifyContent: 'flex-end'
-  },
   navitem: {
-    margin: '30px',
-    cursor: 'pointer'
+    padding: '10px',
+    margin: '20px',
+    cursor: 'pointer',
+    color: 'rgb(96, 96, 96)'
   },
   navitemActive: {
-    margin: '30px',
-    fontWeight: '500',
+    padding: '10px',
+    margin: '20px',
+    // fontWeight: '500',
+    color: 'black',
     cursor: 'pointer'
   }
 };
 
 function Navbar() {
-  return <div className="navbar" style={styles.navbar}>
-    <span className="nav-item" style={styles.navitemActive}>Me</span>
-    <span className="nav-item" style={styles.navitem}>Experience</span>
-    <span className="nav-item" style={styles.navitem}>Projects</span>
+  return <div className="navbar">
+    <div className="brand">
+      Ashutosh Chauhan
+    </div>
+
+    <div className="nav-links">
+      <span className="nav-item" style={styles.navitemActive}>Me</span>
+      <span className="nav-item" style={styles.navitem}>Experience</span>
+      <span className="nav-item" style={styles.navitem}>Projects</span>
+      <span className="nav-item" style={styles.navitem}>Resume</span>
+    </div>
   </div>
 }
 
