@@ -1,114 +1,33 @@
 import Image from 'next/image'
 
+import { projects } from '../portfolio';
+
 export default function Projects() {
-  return <section className="work-experience">
+
+  return <section className="work-experience" id="projects">
   <div className="heading project-heading">My Projects</div>
 
   <div className="project-row">
-    <div className="project-exp">
+    { projects.map((proj, idx) => <div key={idx} className="project-exp">
       <div className="project-image">
-
-        <Image src="https://static.wixstatic.com/media/b0335f_b8649dec8e19490dab93539b0793b665~mv2.jpg/v1/fill/w_518,h_389,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/cover%20imae.jpg"
+        <Image src={proj.thumbnail}
                alt="cover imae.jpg"
                width="448"
                height="336"
                fetchPriority="high" />
       </div>
       <div className="project-title">
-        <a href="#">Angular Migration @ Oppia</a>
+        <a href="#">{proj.title}</a>
       </div>
-      <div className="skills">Angular, Javascript</div>
+      <div className="skills">
+        {
+          proj.skills.map((skill, idx) => skill + ( idx == proj.skills.length - 1 ? ' ' : ', ' ))
+        }
+      </div>
       <div className="project-description">
-        Developed the therapist and patient dashboards for the Therawin application.
+        {proj.description}
       </div>
-    </div>
-
-    <div className="project-exp">
-      <div className="project-image">
-      <Image src="https://static.wixstatic.com/media/b0335f_b8649dec8e19490dab93539b0793b665~mv2.jpg/v1/fill/w_518,h_389,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/cover%20imae.jpg"
-             alt="cover imae.jpg"
-             width="448"
-             height="336"
-             fetchPriority="high" />
-      </div>
-      <div className="project-title">
-        <a href="#">IRA App @ IIT Jammu</a>
-      </div>
-      <div className="skills">Angular, Javascript</div>
-      <div className="project-description">
-        Developed the therapist and patient dashboards for the Therawin application.
-      </div>
-    </div>
-
-    <div className="project-exp">
-      <div className="project-image">
-      <Image src="https://static.wixstatic.com/media/b0335f_b8649dec8e19490dab93539b0793b665~mv2.jpg/v1/fill/w_518,h_389,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/cover%20imae.jpg"
-             alt="cover imae.jpg"
-             width="448"
-             height="336"
-             fetchPriority="high" />
-      </div>
-      <div className="project-title">
-        <a href="#">Therawin at I&apos;m beside you</a>
-      </div>
-      <div className="skills">Angular, Javascript</div>
-      <div className="project-description">
-        Developed the therapist and patient dashboards for the Therawin application.
-      </div>
-    </div>
-
-    <div className="project-exp">
-      <div className="project-image">
-      <Image src="https://static.wixstatic.com/media/b0335f_b8649dec8e19490dab93539b0793b665~mv2.jpg/v1/fill/w_518,h_389,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/cover%20imae.jpg"
-             alt="cover imae.jpg"
-             width="448"
-             height="336"
-             fetchPriority="high" />
-      </div>
-      <div className="project-title">
-        <a href="#">Flipkart Grid 5.0</a>
-      </div>
-      <div className="skills">Angular, Javascript</div>
-      <div className="project-description">
-        Developed the therapist and patient dashboards for the Therawin application.
-      </div>
-    </div>
-
-    <div className="project-exp">
-      <div className="project-image">
-      <Image src="https://static.wixstatic.com/media/b0335f_b8649dec8e19490dab93539b0793b665~mv2.jpg/v1/fill/w_518,h_389,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/cover%20imae.jpg"
-             alt="cover imae.jpg"
-             width="448"
-             height="336"
-             fetchPriority="high" />
-      </div>
-      <div className="project-title">
-        <a href="#">SEC Filings Analyzer</a>
-      </div>
-      <div className="skills">Angular, Javascript</div>
-      <div className="project-description">
-        Developed the therapist and patient dashboards for the Therawin application.
-      </div>
-    </div>
-
-    <div className="project-exp">
-      <div className="project-image">
-      <Image src="https://static.wixstatic.com/media/b0335f_b8649dec8e19490dab93539b0793b665~mv2.jpg/v1/fill/w_518,h_389,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/cover%20imae.jpg"
-             alt="cover imae.jpg"
-             width="448"
-             height="336"
-             fetchPriority="high" />
-      </div>
-      <div className="project-title">
-        <a href="#">ChatterBox</a>
-      </div>
-      <div className="skills">Angular, Javascript</div>
-      <div className="project-description">
-        Developed the therapist and patient dashboards for the Therawin application.
-      </div>
-    </div>
-
-
+    </div>) }
 
     {/* View all */}
 

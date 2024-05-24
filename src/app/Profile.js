@@ -1,6 +1,7 @@
 import Social from './Social'
 import Image from 'next/image'
-import profile from '../assets/profile.jpg'
+
+import { profile } from '../portfolio'
 
 const styles = {
   mainContainer: {
@@ -35,7 +36,7 @@ export default function Profile() {
         <Social />
       </div>
       <div className='picture'>
-        <Image src={profile} alt="profile" />
+        <Image src={profile.profile_picture} alt="profile" />
       </div>
     </div>
     {/* <Skills /> */}

@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-between;
   /* margin-top: 50px; */
-  padding: 30px 0px;
+  padding: 50px 0px;
+  padding-top: 30px;
 }
 
 .main, .work-experience, .project-section {
   width: 70%;
   margin: auto;
 }
-
 
 .picture {
   display: flex;
@@ -110,6 +110,7 @@ body {
   display: flex;
 }
 
+
 .brand {
   display: flex;
   padding: 10px;
@@ -117,6 +118,11 @@ body {
   cursor: pointer;
   font-size: 22px;
   font-weight: 500;
+}
+
+.brand a {
+  text-decoration: none;
+  color: black;
 }
 
 .bio {
@@ -236,11 +242,23 @@ body {
   width: 80%;
   margin: auto;
   display: flex;
-  padding: 40px;
+  padding: 20px 0px;
   justify-content: space-between;
 }
 
 .footer-content a {
   color: rgb(200, 200, 200);
   text-decoration: none;
+}
+
+.resume-content {
+  padding: 50px;
+  padding-top: 20px;
+}
+
+.resume-content iframe {
+  width: 850px;
+  height: 1070px;
+  margin: auto;
+  display: block;
 }

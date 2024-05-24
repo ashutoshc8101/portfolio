@@ -1,5 +1,7 @@
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
+import { profile } from '../portfolio'
+
 const styles = {
   iconStyle: {
     width: '40px',
@@ -23,7 +25,7 @@ function Social() {
       <SocialIcon
         key={"github"}
         style={styles.firstIcon}
-        url={"https://github.com/ashutoshc8101"}
+        url={profile.socials.github}
         network={"github"}
         // bgColor={theme.socialIconBgColor}
         target="_blank"
@@ -32,7 +34,7 @@ function Social() {
       <SocialIcon
         key={"linkedin"}
         style={styles.iconStyle}
-        url={"https://www.linkedin.com/in/ashutosh-chauhan-3866aa69/"}
+        url={profile.socials.linkedin}
         network={"linkedin"}
         target="_blank"
         rel="noopener"
@@ -40,7 +42,7 @@ function Social() {
       <SocialIcon
         key={"twitter"}
         style={styles.iconStyle}
-        url={"https://twitter.com/ashutoshc8101"}
+        url={profile.socials.twitter}
         network={"twitter"}
         target="_blank"
         rel="noopener"
@@ -48,7 +50,7 @@ function Social() {
       <SocialIcon
         key={"instagram"}
         style={styles.iconStyle}
-        url={"https://www.instagram.com/ashutoshchauhan91"}
+        url={profile.socials.instagram}
         network='instagram'
         target='_blank'
         rel="noopener"
@@ -56,7 +58,7 @@ function Social() {
       <SocialIcon
         key={"email"}
         style={styles.iconStyle}
-        url={"mailto:ashutoshc8101@gmail.com"}
+        url={`mailto:${profile.socials.email}`}
         network={"email"}
         target="_blank"
         rel="noopener"
