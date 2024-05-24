@@ -1,4 +1,5 @@
-import Image from 'next/image'
+import Image from 'next/image';
+import Link from 'next/link';
 
 import { experiences } from '../portfolio';
 
@@ -9,11 +10,12 @@ export default function Experience() {
 
       { experiences.map((exp, idx) => <div key={idx} className='work-exp'>
         <div className="work-image">
-          <Image src={exp.thumbnail}
-          alt="thumbnail" width="292" height="214" fetchPriority="high" />
+          <Link href="/experience"><Image src={exp.thumbnail}
+            alt="thumbnail" width="292" height="214" fetchPriority="high" />
+          </Link>
         </div>
         <div className="organization">
-          <a href="#">{exp.title}</a>
+          <Link href="/experience">{exp.title}</Link>
         </div>
         <div className="designation">{exp.designation}</div>
         <div className="description">
