@@ -8,10 +8,10 @@ export default function Experience() {
       <div className="work-exp">
         <div className="work-image">
           <Image src="https://static.wixstatic.com/media/b0335f_b8826810859741b89cecd2f3f5fcf25c~mv2.png/v1/fill/w_338,h_247,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Frame%20633682.png"
-          alt="Frame 633682.png" width="292" height="214" fetchpriority="high" />
+          alt="Frame 633682.png" width="292" height="214" fetchPriority="high" />
         </div>
         <div className="organization">
-          <a href="#">I'm besideyou Inc</a>
+          <a href="#">I&apos;m besideyou Inc</a>
         </div>
         <div className="designation">Software Engineer Intern</div>
         <div className="description">
@@ -22,7 +22,7 @@ export default function Experience() {
       <div className="work-exp">
         <div className="work-image">
           <Image src="https://static.wixstatic.com/media/b0335f_b8826810859741b89cecd2f3f5fcf25c~mv2.png/v1/fill/w_338,h_247,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Frame%20633682.png"
-          alt="Frame 633682.png"  width="292" height="214" fetchpriority="high" />
+          alt="Frame 633682.png"  width="292" height="214" fetchPriority="high" />
         </div>
         <div className="organization">
           <a href="#">IRA, IIT Jammu</a>
@@ -36,7 +36,7 @@ export default function Experience() {
       <div className="work-exp">
         <div className="work-image">
           <Image src="https://static.wixstatic.com/media/b0335f_b8826810859741b89cecd2f3f5fcf25c~mv2.png/v1/fill/w_338,h_247,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Frame%20633682.png"
-          alt="Frame 633682.png"  width="292" height="214" fetchpriority="high" />
+          alt="Frame 633682.png"  width="292" height="214" fetchPriority="high" />
         </div>
         <div className="organization">
           <a href="#">Oppia Foundation</a>

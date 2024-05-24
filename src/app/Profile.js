@@ -21,13 +21,13 @@ export default function Profile() {
       <div style={styles.mainContainer}>
         {/* <Image src={profile} alt='profile image' /> */}
         <div style={styles.nameStyle}>
-        Hi, I'm Ashutosh, a <span className='highlight'>software developer</span> passionate about <br /> building products and exploring new technologies</div>
+        Hi, I&apos;m Ashutosh, a <span className='highlight'>software developer</span> passionate about <br /> building products and exploring new technologies</div>
 
         <div className='bio'>
           {/* <div>Software Engineer at <a href="">Zorang</a></div> */}
-          <div>GSoC'21 student and GSoC'22 mentor with <a href="https://www.oppia.org/about-foundation" target="_blank">Oppia Foundation↗</a></div>
+          <div>GSoC&apos;21 student and GSoC&apos;22 mentor with <a href="https://www.oppia.org/about-foundation" target="_blank">Oppia Foundation↗</a></div>
           <div>Worked previously with <a href="https://www.imbesideyou.com/"
-            target="_blank">I'm beside you Inc↗</a> and <a href="https://github.com/iraapp/ira"
+            target="_blank">I&apos;m beside you Inc↗</a> and <a href="https://github.com/iraapp/ira"
             target='_blank'>IRA↗</a></div>
 
           <div>Graduated from <a href="https://iitjammu.ac.in" target="_blank">IIT Jammu↗</a></div>

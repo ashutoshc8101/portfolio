@@ -12,7 +12,7 @@ export default function Projects() {
                alt="cover imae.jpg"
                width="448"
                height="336"
-               fetchpriority="high" />
+               fetchPriority="high" />
       </div>
       <div className="project-title">
         <a href="#">Angular Migration @ Oppia</a>
@@ -29,7 +29,7 @@ export default function Projects() {
              alt="cover imae.jpg"
              width="448"
              height="336"
-             fetchpriority="high" />
+             fetchPriority="high" />
       </div>
       <div className="project-title">
         <a href="#">IRA App @ IIT Jammu</a>
@@ -46,10 +46,10 @@ export default function Projects() {
              alt="cover imae.jpg"
              width="448"
              height="336"
-             fetchpriority="high" />
+             fetchPriority="high" />
       </div>
       <div className="project-title">
-        <a href="#">Therawin at I'm beside you</a>
+        <a href="#">Therawin at I&apos;m beside you</a>
       </div>
       <div className="skills">Angular, Javascript</div>
       <div className="project-description">
@@ -57,15 +57,13 @@ export default function Projects() {
       </div>
     </div>
 
-
-
     <div className="project-exp">
       <div className="project-image">
       <Image src="https://static.wixstatic.com/media/b0335f_b8649dec8e19490dab93539b0793b665~mv2.jpg/v1/fill/w_518,h_389,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/cover%20imae.jpg"
              alt="cover imae.jpg"
              width="448"
              height="336"
-             fetchpriority="high" />
+             fetchPriority="high" />
       </div>
       <div className="project-title">
         <a href="#">Flipkart Grid 5.0</a>
@@ -82,7 +80,7 @@ export default function Projects() {
              alt="cover imae.jpg"
              width="448"
              height="336"
-             fetchpriority="high" />
+             fetchPriority="high" />
       </div>
       <div className="project-title">
         <a href="#">SEC Filings Analyzer</a>
@@ -99,7 +97,7 @@ export default function Projects() {
              alt="cover imae.jpg"
              width="448"
              height="336"
-             fetchpriority="high" />
+             fetchPriority="high" />
       </div>
       <div className="project-title">
         <a href="#">ChatterBox</a>
@@ -120,7 +118,7 @@ export default function Projects() {
              alt="cover imae.jpg"
              width="448"
              height="336"
-             fetchpriority="high" />
+             fetchPriority="high" />
       </div>
       <div className="project-title">
         <a href="#">LAMP</a>
@@ -137,7 +135,7 @@ export default function Projects() {
              alt="cover imae.jpg"
              width="448"
              height="336"
-             fetchpriority="high" />
+             fetchPriority="high" />
       </div>
       <div className="project-title">
         <a href="#">Ava</a>
@@ -154,7 +152,7 @@ export default function Projects() {
              alt="cover imae.jpg"
              width="448"
              height="336"
-             fetchpriority="high" />
+             fetchPriority="high" />
       </div>
       <div className="project-title">
         <a href="#">SUSI.AI</a>
