@@ -10,7 +10,7 @@ export default function Experience() {
 
       { experiences.map((exp, idx) => <div key={idx} className='work-exp'>
         <div className="work-image">
-          <Link href="/experience"><Image src={exp.thumbnail}
+          <Link href={exp.url}><Image src={exp.thumbnail}
             alt="thumbnail" width="292" height="214" fetchPriority="high" />
           </Link>
         </div>

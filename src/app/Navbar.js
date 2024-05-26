@@ -29,10 +29,18 @@ function Navbar() {
     </div>
 
     <div className="nav-links">
-      <span className="nav-item"><Link href="/" style={styles.navitemActive}>Me</Link></span>
-      <span className="nav-item"><Link href="/#experience" style={styles.navitem}>Experience</Link></span>
-      <span className="nav-item"><Link href="/#projects" style={styles.navitem}>Projects</Link></span>
-      <span className="nav-item"><Link href="/resume" style={styles.navitem}>Resume</Link></span>
+      <span className="nav-item">
+        <Link href="/" style={styles.navitem}>Me</Link>
+      </span>
+      <span className="nav-item">
+        <Link href="/#experience" style={styles.navitem}>Experience</Link>
+      </span>
+      <span className="nav-item">
+        <Link href="/#projects" style={styles.navitem}>Projects</Link>
+      </span>
+      <span className="nav-item">
+        <Link href="/resume" style={styles.navitem}>Resume</Link>
+      </span>
     </div>
   </div>
 }
