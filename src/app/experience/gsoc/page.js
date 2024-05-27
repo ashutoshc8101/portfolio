@@ -1,5 +1,4 @@
 import Footer from "@/app/Footer";
-import Navbar from "@/app/Navbar";
 import Image from 'next/image';
 import gsocBanner from '../../../assets/GSoC-icon.svg';
 

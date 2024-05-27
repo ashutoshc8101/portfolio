@@ -17,14 +17,12 @@ export default function Resume() {
   return (
     <>
       <div className="resume-content">
-        <Document file="/resume.pdf" externalLinkTarget='_blank'>
-          <Page pageNumber={1} width="1000" />
-        </Document>
+        <iframe src="https://drive.google.com/file/d/1UwEnsZnekN9LmpNwV-wdPU6LkfBuCWeU/preview"
+                width="1000"
+                height="1100"
+                allow="autoplay">
+        </iframe>
       </div>
-
-      <a href="/resume.pdf" className='downloadResume'>
-        <FontAwesomeIcon icon={faDownload} size="xl" />
-      </a>
     </>
   );
 }
