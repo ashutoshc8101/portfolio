@@ -314,6 +314,8 @@ body {
   width: 100%;
   height: 600px;
   background-color: rgb(246, 246, 246);
+  display: flex;
+  justify-content: center;
 }
 
 .experience-content {

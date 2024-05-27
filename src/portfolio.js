@@ -56,37 +56,43 @@ export const projects = [
       title: 'Angular Migration @ Oppia',
       skills: ['Angular', 'Javascript'],
       description: 'Developed the therapist and patient dashboards for the Therawin application.',
-      thumbnail: angularMigration
+      thumbnail: angularMigration,
+      url: '/project/angular-migration'
     },
     {
       title: 'IRA App @ IIT Jammu',
-      skills: ['Angular', 'Javascript'],
+      skills: ['Flutter', 'Django', 'AWS'],
       description: 'Developed the therapist and patient dashboards for the Therawin application.',
       thumbnail: 'https://static.wixstatic.com/media/b0335f_b8649dec8e19490dab93539b0793b665~mv2.jpg/v1/fill/w_518,h_389,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/cover%20imae.jpg',
+      url: '/project/ira-app'
     },
     {
       title: 'Therawin @ I\'m beside you',
-      skills: ['Angular', 'Javascript'],
+      skills: ['React', 'Python', 'AWS Lambda', 'AWS RDS'],
       description: 'Developed the therapist and patient dashboards for the Therawin application.',
-      thumbnail: therawin
+      thumbnail: therawin,
+      url: '/project/therawin'
     },
     {
       title: 'Flipkart Grid 5.0',
-      skills: ['Angular', 'Javascript'],
+      skills: ['React', 'Django', 'LangChain'],
       description: 'Developed the therapist and patient dashboards for the Therawin application.',
       thumbnail: llama,
+      url: '/project/flipkart-grid'
     },
     {
       title: 'SEC Filings Analyzer',
-      skills: ['Angular', 'Javascript'],
+      skills: ['Angular', 'Django', 'PostgreSQL'],
       description: 'Developed the therapist and patient dashboards for the Therawin application.',
       thumbnail: sec,
+      url: '/project/sec-filings-analyzer'
     },
     {
       title: 'ChatterBox',
-      skills: ['Angular', 'Javascript'],
+      skills: ['React', 'Node.js', 'Socket.io'],
       description: 'Developed the therapist and patient dashboards for the Therawin application.',
-      thumbnail: chatterbox
+      thumbnail: chatterbox,
+      url: '/project/chatterbox'
     }
   ];
 

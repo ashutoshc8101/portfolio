@@ -1,19 +1,23 @@
 import Footer from "@/app/Footer";
 import Navbar from "@/app/Navbar";
 import Image from 'next/image';
+import imbesideyou from '../../../assets/imbesideyou.png'
+import imbesideyou_banner from '../../../assets/imbesideyou_banner.png';
 
 export default function Imbesideyou() {
   return <>
-    <Navbar />
 
     <div className="banner">
-      <Image src="" alt="banner image" />
+      <Image src={imbesideyou_banner} alt="banner image" />
     </div>
 
     <div className="role-info">
       <div className="experience-content">
         <div className="organization-title">Japanese StartUp - I&apos;m besideyou Inc</div>
-        <div className="role-description">Developed UI and serverless backend for therawin application.</div>
+        <div className="role-description">
+          I&apos;m besideyou Inc is a japanese startup which aims to solve HR and mental health problems.
+          I worked completely remotely during the internship on building the therawin application which aims to solve reduce gap between therapists and patients.
+        </div>
 
         <div className="role-info-row">
           <div className="role-info-item">
@@ -33,7 +37,7 @@ export default function Imbesideyou() {
 
           <div className="role-info-item">
             <div className="role-info-label">Tools Used</div>
-            <div>Figma, After Effects, Spark AR</div>
+            <div>React, MySQL, Python, AWS Lambda, AWS RDS</div>
           </div>
         </div>
       </div>

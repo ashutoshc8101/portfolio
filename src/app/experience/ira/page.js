@@ -1,14 +1,14 @@
 import Footer from "@/app/Footer";
 import Navbar from "@/app/Navbar";
 import Image from 'next/image';
+import iraBanner from '../../../assets/ira_banner2.png';
 
 
 export default function IRA() {
   return <>
-    <Navbar />
 
-    <div className="banner">
-      <Image src="" alt="banner image" />
+    <div className="banner" style={{backgroundColor: '#242A38'}}>
+      <Image src={iraBanner} alt="banner image" />
     </div>
 
     <div className="role-info">

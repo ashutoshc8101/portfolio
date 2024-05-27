@@ -1,13 +1,12 @@
 import Footer from "@/app/Footer";
 import Navbar from "@/app/Navbar";
 import Image from 'next/image';
+import gsocBanner from '../../../assets/GSoC-icon.svg';
 
 export default function GSoC() {
   return <>
-  <Navbar />
-
-  <div className="banner">
-    <Image src="" alt="banner image" />
+  <div className="banner" style={{ alignItems: 'center' }}>
+    <Image src={gsocBanner} alt="banner image" />
   </div>
 
   <div className="role-info">

@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 import { projects } from '../portfolio';
 
@@ -10,14 +11,16 @@ export default function Projects() {
   <div className="project-row">
     { projects.map((proj, idx) => <div key={idx} className="project-exp">
       <div className="project-image">
-        <Image src={proj.thumbnail}
-               alt="cover imae.jpg"
-               width="448"
-               height="336"
-               fetchPriority="high" />
+        <Link href={proj.url}>
+          <Image src={proj.thumbnail}
+                alt="cover imae.jpg"
+                width="448"
+                height="336"
+                fetchPriority="high" />
+          </Link>
       </div>
       <div className="project-title">
-        <a href="#">{proj.title}</a>
+        <Link href={proj.url}>{proj.title}</Link>
       </div>
       <div className="skills">
         {
