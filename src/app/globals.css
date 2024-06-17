@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth; 
+}
+
 .profile {
   display: flex;
   justify-content: space-between;
@@ -324,4 +328,8 @@ body {
 
 .experience-content li {
   margin-top: 25px;
+}
+
+.role-description {
+  line-height: 24px;
 }
